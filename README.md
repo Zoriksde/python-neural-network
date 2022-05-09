@@ -10,7 +10,7 @@ The structure of neural network is divided into layers of several different type
 - Dense Layer - which creates synapses between each node from input to each node from output.
 - Activation Layer - which calculates value of activation function for given input.
 - Convolution Layer - which performs correlation and convolution operations on images.
-- Flatten Layer - which reshapes given input into one dimension output.
+- Flatten Layer - which reshapes given input into one dimensional output.
 
 Project is written using OOP Principles and different Design Patterns, which makes it easy to maintain, extend, fix and change.
 Each activation function is implemented as single class which inherits from abstract one (Strategy Design Pattern).
