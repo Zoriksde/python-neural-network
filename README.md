@@ -5,10 +5,12 @@ The only requirement of understanding concepts of this project is basic knowledg
 There are several activation functions and loss functions to use.
 Project is written in Python.
 
-The structure of neural network is divided into layers of two different types:
+The structure of neural network is divided into layers of several different types:
 
 - Dense Layer - which creates synapses between each node from input to each node from output.
 - Activation Layer - which calculates value of activation function for given input.
+- Convolution Layer - which performs correlation and convolution operations on images.
+- Flatten Layer - which reshapes given input into one dimension output.
 
 Project is written using OOP Principles and different Design Patterns, which makes it easy to maintain, extend, fix and change.
 Each activation function is implemented as single class which inherits from abstract one (Strategy Design Pattern).
@@ -89,7 +91,10 @@ Loss functions that are covered here:
 
 - MAE (Mean Absolute Error)
 - MSE (Mean Squared Error)
+- BCE (Binary Cross Entropy)
 
 I do recommend this [article](https://arxiv.org/pdf/1811.03378.pdf) to read about activation functions with some chart visualization.
+
+There is implemented basic CNN on ```main.py```.
 
 Project is written with main aim to help anyone who is interested in these topics. Enjoy playing around!
