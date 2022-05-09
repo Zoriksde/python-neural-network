@@ -1,5 +1,5 @@
 """MSE Loss Function Class"""
-from ANN.Loss.LossFunction import LossFunction
+from NN.Loss.LossFunction import LossFunction
 
 import numpy.typing as npt
 import numpy as np

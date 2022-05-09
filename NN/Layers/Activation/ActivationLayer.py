@@ -1,6 +1,6 @@
 """Activation Layer Abstract Class"""
 
-from ANN.Layers.Layer import Layer
+from NN.Layers.Layer import Layer
 
 from typing import Callable
 import numpy.typing as npt

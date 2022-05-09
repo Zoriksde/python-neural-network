@@ -1,5 +1,5 @@
 """MAE Loss Function Class"""
-from ANN.Loss.LossFunction import LossFunction
+from NN.Loss.LossFunction import LossFunction
 
 import numpy.typing as npt
 import numpy as np
@@ -25,7 +25,8 @@ class MAELossFunction(LossFunction):
     def calculate_loss_derivative(self, actual_output: npt.ArrayLike, predicted_output: npt.ArrayLike) -> np.float64:
         """
         
-        This function value of loss derivative
+        Note:
+        This function returns value of loss derivative
         
         dy/dx = 1 if predicted_output > actual_output else -1
         

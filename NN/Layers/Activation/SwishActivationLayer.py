@@ -1,6 +1,6 @@
 """Swish Activation Layer Class"""
 
-from ANN.Layers.ActivationLayer import ActivationLayer
+from NN.Layers.Activation.ActivationLayer import ActivationLayer
 import numpy as np
 
 

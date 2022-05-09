@@ -1,7 +1,7 @@
 """Neural Network Class"""
 
-from ANN.Layers.Layer import Layer
-from ANN.Loss.LossFunction import LossFunction
+from NN.Layers.Layer import Layer
+from NN.Loss.LossFunction import LossFunction
 
 from typing import List
 import numpy.typing as npt

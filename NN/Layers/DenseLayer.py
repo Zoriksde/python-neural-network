@@ -1,6 +1,6 @@
 """Dense Layer Class"""
 
-from ANN.Layers.Layer import Layer
+from NN.Layers.Layer import Layer
 
 import numpy.typing as npt
 import numpy as np
