@@ -4,6 +4,7 @@ from NN.Layers.Layer import Layer
 from NN.Loss.LossFunction import LossFunction
 
 from typing import List
+
 import numpy.typing as npt
 import numpy as np
 

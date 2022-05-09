@@ -41,7 +41,8 @@ class BCELossFunction(LossFunction):
         f.e sigmoid or softmax
 
         """
+
         return -np.mean(actual_output * np.log(predicted_output) + (1 - actual_output) * np.log(1 - predicted_output))
 
-    def calculate_loss_derivative(self, actual_output: npt.ArrayLike, predicted_output: npt.ArrayLike) -> np.float64:
+    def calculate_loss_derivative(self, actual_output: npt.ArrayLike, predicted_output: npt.ArrayLike) -> np.float64: 
         return ((1 - actual_output) / (1 - predicted_output) - actual_output / predicted_output) / np.size(actual_output)

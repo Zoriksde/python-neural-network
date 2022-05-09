@@ -1,7 +1,8 @@
 """Flatten Layer Class"""
 
-from typing import Tuple
 from NN.Layers.Layer import Layer
+
+from typing import Tuple
 
 import numpy.typing as npt
 import numpy as np
