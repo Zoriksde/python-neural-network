@@ -95,6 +95,6 @@ Loss functions that are covered here:
 
 I do recommend this [article](https://arxiv.org/pdf/1811.03378.pdf) to read about activation functions with some chart visualization.
 
-There is implemented basic CNN on ```main.py```.
+There is implemented basic CNN in ```main.py```.
 
 Project is written with main aim to help anyone who is interested in these topics. Enjoy playing around!
